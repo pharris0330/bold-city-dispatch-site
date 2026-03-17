@@ -1,232 +1,1283 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    body {background-color: #080d17}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 22.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #080d17; -webkit-text-stroke: #080d17}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2; min-height: 15.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p8 {margin: 0.0px 0.0px 52.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #080d17; -webkit-text-stroke: #080d17}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 22.0px 'Helvetica Neue'; color: #e1ab3b; -webkit-text-stroke: #e1ab3b}
-    p.p11 {margin: 0.0px 0.0px 0.0px 2.0px; text-indent: -2.0px; font: 14.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6; min-height: 17.0px}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #875e19; -webkit-text-stroke: #875e19}
-    p.p16 {margin: 0.0px 0.0px 60.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 56.0px 'Helvetica Neue'; color: #bc8721; color: rgba(188, 135, 33, 0.15); -webkit-text-stroke: rgba(188, 135, 33, 0.15)}
-    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px '.Apple Color Emoji UI'; color: #f1ece2; -webkit-text-stroke: #f1ece2}
-    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2}
-    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #7d7d7d; -webkit-text-stroke: #7d7d7d; background-color: #bc8721; background-color: rgba(188, 135, 33, 0.2); min-height: 13.0px}
-    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 72.0px 'Helvetica Neue'; color: #b02621; -webkit-text-stroke: #b02621}
-    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #6d6d6d; -webkit-text-stroke: #6d6d6d; min-height: 15.0px}
-    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 13.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 40.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 13.0px 'Helvetica Neue'; color: #e1ab3b; -webkit-text-stroke: #e1ab3b}
-    p.p31 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2; background-color: #de352e; min-height: 15.0px}
-    p.p32 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2; background-color: #ee8a12; min-height: 15.0px}
-    p.p33 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2; background-color: #2cc55e; min-height: 15.0px}
-    p.p34 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p35 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p36 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p37 {margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px 'Helvetica Neue'; color: #de352e; -webkit-text-stroke: #de352e}
-    p.p38 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2}
-    p.p39 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p40 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #de352e; -webkit-text-stroke: #de352e; background-color: #b02621; background-color: rgba(176, 38, 33, 0.2)}
-    p.p41 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721; background-color: #bc8721; background-color: rgba(188, 135, 33, 0.15)}
-    p.p42 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6; background-color: #7d91a9; background-color: rgba(125, 145, 169, 0.15)}
-    p.p43 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #875e19; -webkit-text-stroke: #875e19}
-    p.p44 {margin: 0.0px 0.0px 0.0px 0.0px; font: 32.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2}
-    p.p45 {margin: 0.0px 0.0px 0.0px 0.0px; font: 56.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p46 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p47 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px 'Helvetica Neue'; color: #080d17; -webkit-text-stroke: #080d17; background-color: #bc8721}
-    p.p49 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Helvetica Neue'; color: #080d17; -webkit-text-stroke: #080d17; background-color: #bc8721}
-    p.p50 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2; min-height: 15.0px}
-    p.p51 {margin: 0.0px 0.0px 20.0px 0.0px; text-align: center; font: 11.0px 'Helvetica Neue'; color: #875e19; -webkit-text-stroke: #875e19}
-    p.p53 {margin: 0.0px 0.0px 52.0px 0.0px; text-align: center; font: 18.0px 'Helvetica Neue'; color: #7d91a9; -webkit-text-stroke: #7d91a9}
-    p.p54 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Helvetica Neue'; color: #080d17; -webkit-text-stroke: #080d17; background-color: #bc8721}
-    p.p55 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 20.0px 'Helvetica Neue'; color: #e1ab3b; -webkit-text-stroke: #e1ab3b}
-    p.p56 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6}
-    p.p57 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #bc8721; -webkit-text-stroke: #bc8721}
-    p.p58 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #7d91a9; color: rgba(125, 145, 169, 0.5); -webkit-text-stroke: rgba(125, 145, 169, 0.5)}
-    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6}
-    li.li48 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #aac3d6; -webkit-text-stroke: #aac3d6; background-color: #0b1527}
-    span.s1 {font-kerning: none; background-color: rgba(8, 13, 23, 0.85)}
-    span.s2 {font: 14.0px '.Apple Color Emoji UI'; font-kerning: none; background-color: #bc8721}
-    span.s3 {font: 14.0px 'Helvetica Neue'; font-kerning: none}
-    span.s4 {font-kerning: none}
-    span.s5 {font-kerning: none; color: #bc8721; -webkit-text-stroke: 0px #bc8721}
-    span.s6 {font: 18.0px '.Apple Color Emoji UI'; font-kerning: none; background-color: #bc8721}
-    span.s7 {font-kerning: none; background-color: #bc8721}
-    span.s8 {font-kerning: none; background-color: #0f1933}
-    span.s9 {font-kerning: none; color: #f1ece2; background-color: #0f1933; -webkit-text-stroke: 0px #f1ece2}
-    span.s10 {font-kerning: none; background-color: rgba(11, 21, 39, 0.8)}
-    span.s11 {font-kerning: none; background-color: #0a111e}
-    span.s12 {font-kerning: none; background-color: rgba(188, 135, 33, 0.059)}
-    span.s13 {font-kerning: none; background-color: #080d17}
-    span.s14 {background-color: #0f1933; -webkit-text-stroke: 0px #000000}
-    span.s15 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #f1ece2; background-color: #0f1933; -webkit-text-stroke: 0px #f1ece2}
-    span.s16 {font: 14.0px 'Helvetica Neue'; font-kerning: none; color: #bc8721; -webkit-text-stroke: 0px #bc8721}
-    span.s17 {font-kerning: none; background-color: #0b1527}
-    span.s18 {-webkit-text-stroke: 0px #000000}
-    span.s19 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #f1ece2; -webkit-text-stroke: 0px #f1ece2}
-    span.s20 {font: 14.0px 'Helvetica Neue'; font-kerning: none; color: #080d17; -webkit-text-stroke: 0px #080d17}
-    span.s21 {font: 16.0px '.Apple Color Emoji UI'; font-kerning: none}
-    span.s22 {font: 14.0px 'Helvetica Neue'; font-kerning: none; color: #aac3d6; -webkit-text-stroke: 0px #aac3d6}
-    ul.ul1 {list-style-type: none}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bold City Dispatch — Zero Missed Calls. 100% Bold.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0B1C34;
+    --navy-dark: #060f1e;
+    --navy-mid: #122242;
+    --gold: #C9982A;
+    --gold-light: #E8B84B;
+    --gold-dim: #9A7120;
+    --steel: #8FA3B8;
+    --steel-light: #B8CEDE;
+    --white: #F4F0E8;
+    --off-white: #E8E2D4;
+    --red-alert: #C0392B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--navy-dark);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* ---- NOISE TEXTURE OVERLAY ---- */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1000;
+    opacity: 0.5;
+  }
+
+  /* ---- NAV ---- */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(6, 15, 30, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(201, 152, 42, 0.15);
+  }
+
+  .nav-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: var(--gold);
+  }
+
+  .nav-logo span {
+    color: var(--white);
+    opacity: 0.6;
+    font-size: 13px;
+    display: block;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 1px;
+    margin-top: -2px;
+  }
+
+  .nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--navy-dark);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 10px 22px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-primary:hover {
+    background: var(--gold-light);
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost {
+    color: var(--steel-light);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+  }
+
+  .btn-ghost:hover { color: var(--white); }
+
+  /* ---- HERO ---- */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 40px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background: 
+      radial-gradient(ellipse 60% 50% at 80% 50%, rgba(201,152,42,0.08) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 60% at 20% 80%, rgba(11,28,52,0.8) 0%, transparent 60%),
+      linear-gradient(160deg, #060f1e 0%, #0b1c34 50%, #060f1e 100%);
+  }
+
+  .hero-grid {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(201,152,42,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201,152,42,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 20%, transparent 80%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    width: 32px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .hero-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(64px, 9vw, 120px);
+    line-height: 0.92;
+    letter-spacing: 2px;
+    color: var(--white);
+    margin-bottom: 32px;
+  }
+
+  .hero-headline .accent { color: var(--gold); }
+
+  .hero-sub {
+    font-size: 20px;
+    color: var(--steel-light);
+    font-weight: 300;
+    max-width: 520px;
+    line-height: 1.6;
+    margin-bottom: 52px;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .call-block {
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+    border: 1px solid var(--gold);
+    max-width: fit-content;
+  }
+
+  .call-label {
+    background: var(--gold);
+    color: var(--navy-dark);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .call-number {
+    font-family: 'DM Mono', monospace;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--gold-light);
+    padding: 16px 28px;
+    letter-spacing: 1px;
+  }
+
+  .hero-instruction {
+    font-size: 14px;
+    color: var(--steel);
+    font-style: italic;
+    margin-left: 2px;
+  }
+
+  .hero-book {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--steel-light);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+    margin-top: 8px;
+  }
+
+  .hero-book:hover { color: var(--gold); }
+
+  .hero-book svg { transition: transform 0.2s; }
+  .hero-book:hover svg { transform: translateX(3px); }
+
+  /* ---- TRUST BAR ---- */
+  .trust-bar {
+    background: var(--navy-mid);
+    border-top: 1px solid rgba(201,152,42,0.2);
+    border-bottom: 1px solid rgba(201,152,42,0.2);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--steel);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .trust-item::before {
+    content: '▸';
+    color: var(--gold);
+    font-size: 10px;
+  }
+
+  /* ---- HOW IT WORKS ---- */
+  .section {
+    padding: 100px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(40px, 5vw, 64px);
+    letter-spacing: 1px;
+    color: var(--white);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .section-sub {
+    color: var(--steel);
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 500px;
+    line-height: 1.7;
+    margin-bottom: 60px;
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+  }
+
+  .step-card {
+    background: var(--navy-mid);
+    padding: 36px 28px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s;
+  }
+
+  .step-card:hover { background: #16294e; }
+
+  .step-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .step-card:hover::before { opacity: 1; }
+
+  .step-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    color: rgba(201,152,42,0.15);
+    line-height: 1;
+    margin-bottom: 16px;
+    transition: color 0.3s;
+  }
+
+  .step-card:hover .step-num { color: rgba(201,152,42,0.3); }
+
+  .step-icon {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .step-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  .step-desc {
+    font-size: 14px;
+    color: var(--steel);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* ---- REVENUE CALCULATOR ---- */
+  .calc-section {
+    background: var(--navy-mid);
+    border-top: 1px solid rgba(201,152,42,0.15);
+    border-bottom: 1px solid rgba(201,152,42,0.15);
+    padding: 100px 40px;
+  }
+
+  .calc-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .calc-controls { display: flex; flex-direction: column; gap: 36px; }
+
+  .slider-group { display: flex; flex-direction: column; gap: 12px; }
+
+  .slider-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .slider-name {
+    font-size: 14px;
+    color: var(--steel-light);
+    font-weight: 500;
+  }
+
+  .slider-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 20px;
+    color: var(--gold);
+    font-weight: 500;
+  }
+
+  input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    background: rgba(201,152,42,0.2);
+    outline: none;
+    border-radius: 0;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: var(--gold);
+    cursor: pointer;
+    border-radius: 0;
+    border: 2px solid var(--navy-dark);
+  }
+
+  .calc-result {
+    text-align: center;
+    position: relative;
+  }
+
+  .calc-result::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    background: linear-gradient(135deg, rgba(201,152,42,0.3), transparent 50%);
+    pointer-events: none;
+  }
+
+  .calc-bg {
+    background: rgba(11,28,52,0.8);
+    border: 1px solid rgba(201,152,42,0.3);
+    padding: 52px 40px;
+  }
+
+  .calc-loss-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--steel);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .calc-loss-amount {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    color: var(--red-alert);
+    line-height: 1;
+    margin-bottom: 8px;
+    transition: all 0.3s;
+  }
+
+  .calc-loss-sub {
+    font-size: 14px;
+    color: var(--steel);
+    margin-bottom: 40px;
+  }
+
+  .calc-divider {
+    border: none;
+    border-top: 1px solid rgba(201,152,42,0.2);
+    margin-bottom: 32px;
+  }
+
+  .calc-cost-label {
+    font-size: 13px;
+    color: var(--steel);
+    margin-bottom: 8px;
+  }
+
+  .calc-cost {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .calc-roi {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: var(--gold-light);
+    opacity: 0.8;
+    transition: all 0.3s;
+  }
+
+  /* ---- SCREENSHOTS ---- */
+  .screenshots-section {
+    padding: 100px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .screenshot-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 60px;
+  }
+
+  .screenshot-card {
+    background: var(--navy-mid);
+    border: 1px solid rgba(201,152,42,0.15);
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+
+  .screenshot-card:hover {
+    border-color: rgba(201,152,42,0.4);
+    transform: translateY(-4px);
+  }
+
+  .screenshot-mock {
+    background: #0a1628;
+    padding: 24px;
+    min-height: 220px;
+    position: relative;
+  }
+
+  .mock-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .mock-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+  }
+
+  .mock-title-bar {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--steel);
+    letter-spacing: 1px;
+    margin-left: 8px;
+  }
+
+  .mock-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .mock-stat {
+    background: rgba(201,152,42,0.06);
+    border: 1px solid rgba(201,152,42,0.12);
+    padding: 12px;
+  }
+
+  .mock-stat-val {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  .mock-stat-label {
+    font-size: 10px;
+    color: var(--steel);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .mock-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .mock-row-name { font-size: 13px; color: var(--white); }
+  .mock-row-detail { font-size: 12px; color: var(--steel); }
+
+  .badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 3px 8px;
+    text-transform: uppercase;
+  }
+
+  .badge-emergency { background: rgba(192,57,43,0.2); color: #e74c3c; }
+  .badge-standard { background: rgba(201,152,42,0.15); color: var(--gold); }
+  .badge-routine { background: rgba(143,163,184,0.15); color: var(--steel-light); }
+
+  .screenshot-caption {
+    padding: 20px 24px;
+    border-top: 1px solid rgba(201,152,42,0.1);
+  }
+
+  .caption-title {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  .caption-text {
+    font-size: 13px;
+    color: var(--steel);
+    line-height: 1.5;
+  }
+
+  /* ---- PRICING ---- */
+  .pricing-section {
+    background: var(--navy-dark);
+    padding: 100px 40px;
+    border-top: 1px solid rgba(201,152,42,0.1);
+  }
+
+  .pricing-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 60px;
+  }
+
+  .pricing-card {
+    background: var(--navy-mid);
+    padding: 40px 32px;
+    position: relative;
+    transition: background 0.3s;
+  }
+
+  .pricing-card:hover { background: #16294e; }
+
+  .pricing-card.featured {
+    background: var(--navy);
+    border: 1px solid var(--gold);
+    margin: -8px 0;
+    padding: 48px 32px;
+    z-index: 2;
+  }
+
+  .pricing-badge {
+    position: absolute;
+    top: -1px; right: 24px;
+    background: var(--gold);
+    color: var(--navy-dark);
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    font-weight: 500;
+  }
+
+  .pricing-tier {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: var(--gold-dim);
+    margin-bottom: 8px;
+  }
+
+  .pricing-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    color: var(--white);
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+  }
+
+  .pricing-price {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 56px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .pricing-period {
+    font-size: 13px;
+    color: var(--steel);
+    margin-bottom: 32px;
+  }
+
+  .pricing-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+
+  .pricing-features li {
+    font-size: 14px;
+    color: var(--steel-light);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    line-height: 1.5;
+  }
+
+  .pricing-features li::before {
+    content: '▸';
+    color: var(--gold);
+    font-size: 10px;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+
+  .pricing-cta {
+    width: 100%;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid var(--gold-dim);
+    color: var(--gold);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: block;
+  }
+
+  .pricing-cta:hover {
+    background: var(--gold);
+    color: var(--navy-dark);
+    border-color: var(--gold);
+  }
+
+  .pricing-card.featured .pricing-cta {
+    background: var(--gold);
+    color: var(--navy-dark);
+    border-color: var(--gold);
+  }
+
+  .pricing-card.featured .pricing-cta:hover {
+    background: var(--gold-light);
+  }
+
+  /* ---- FINAL CTA ---- */
+  .final-cta {
+    padding: 120px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .final-cta-bg {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 60% 80% at 50% 50%, rgba(201,152,42,0.07) 0%, transparent 70%);
+  }
+
+  .final-cta-content { position: relative; z-index: 2; }
+
+  .final-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(48px, 7vw, 96px);
+    letter-spacing: 2px;
+    color: var(--white);
+    line-height: 0.95;
+    margin-bottom: 16px;
+  }
+
+  .final-headline .gold { color: var(--gold); }
+
+  .final-sub {
+    font-size: 18px;
+    color: var(--steel);
+    margin-bottom: 52px;
+    font-weight: 300;
+  }
+
+  .final-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .final-call {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border: 1px solid var(--gold);
+  }
+
+  .final-call-label {
+    background: var(--gold);
+    color: var(--navy-dark);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 20px;
+  }
+
+  .final-call-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 20px;
+    color: var(--gold-light);
+    padding: 16px 24px;
+    letter-spacing: 1px;
+  }
+
+  .btn-book {
+    border: 1px solid rgba(143,163,184,0.4);
+    color: var(--steel-light);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 16px 28px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+
+  .btn-book:hover {
+    border-color: var(--steel-light);
+    color: var(--white);
+  }
+
+  /* ---- FOOTER ---- */
+  footer {
+    background: var(--navy-dark);
+    border-top: 1px solid rgba(201,152,42,0.1);
+    padding: 32px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footer-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: var(--gold);
+  }
+
+  .footer-tagline {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--steel);
+    text-transform: uppercase;
+  }
+
+  .footer-legal {
+    font-size: 12px;
+    color: rgba(143,163,184,0.5);
+  }
+
+  /* ---- ANIMATIONS ---- */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-eyebrow { animation: fadeUp 0.6s ease 0.1s both; }
+  .hero-headline { animation: fadeUp 0.6s ease 0.2s both; }
+  .hero-sub { animation: fadeUp 0.6s ease 0.35s both; }
+  .hero-actions { animation: fadeUp 0.6s ease 0.5s both; }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 900px) {
+    nav { padding: 16px 20px; }
+    .hero { padding: 100px 20px 60px; }
+    .section { padding: 60px 20px; }
+    .steps-grid { grid-template-columns: 1fr 1fr; }
+    .calc-section { padding: 60px 20px; }
+    .calc-inner { grid-template-columns: 1fr; gap: 40px; }
+    .screenshot-pair { grid-template-columns: 1fr; }
+    .pricing-section { padding: 60px 20px; }
+    .pricing-grid { grid-template-columns: 1fr; }
+    .pricing-card.featured { margin: 0; padding: 40px 32px; }
+    .final-cta { padding: 80px 20px; }
+    footer { padding: 24px 20px; }
+    .trust-bar { padding: 20px; gap: 24px; }
+    .screenshots-section { padding: 60px 20px; }
+    .mock-stats { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (max-width: 600px) {
+    .steps-grid { grid-template-columns: 1fr; }
+    .nav-cta .btn-ghost { display: none; }
+    .final-actions { flex-direction: column; }
+  }
+</style>
 </head>
 <body>
-<p class="p1"><span class="s1">Bold City Dispatch</span></p>
-<p class="p2"><span class="s1">A Shochoh LLC Company</span></p>
-<p class="p3"><span class="s1">Pricing</span></p>
-<p class="p4"><span class="s2"><a href="tel:9041234567">📞<span class="s3"> Call Sam Now</span></a></span></p>
-<p class="p5"><span class="s4"></span><br></p>
-<p class="p5"><span class="s4"></span><br></p>
-<p class="p6"><span class="s4">JACKSONVILLE'S AI DISPATCH COMMANDER</span></p>
-<h1 style="margin: 0.0px 0.0px 32.0px 0.0px; font: 72.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2"><span class="s4">Stop Losing<br>
-HVAC Jobs To<br>
-</span><span class="s5">Missed Calls</span></h1>
-<p class="p8"><span class="s4">Bold City Dispatch answers every call, captures the issue, and creates a service request automatically — 24/7, even at 2am.</span></p>
-<p class="p9"><span class="s6">📞</span><span class="s7"> Call Sam Now</span></p>
-<p class="p10"><span class="s4">(904) XXX-XXX</span></p>
-<p class="p11"><span class="s4">Call and pretend your AC stopped working. Sam answers instantly.</span></p>
-<p class="p3"><span class="s4">Or book a 15-min demo</span></p>
-<p class="p12"><span class="s4"></span><br></p>
-<p class="p13"><span class="s8">USNA GRADUATE LEADERSHIP</span><span class="s9"> </span><span class="s8">3RD GENERATION HVAC HERITAGE</span><span class="s9"> </span><span class="s8">RAILWAY CLOUD INFRASTRUCTURE</span><span class="s9"> </span><span class="s8">ZERO MISSED CALLS</span><span class="s9"> </span><span class="s8">JACKSONVILLE FIRST COAST</span></p>
-<p class="p14"><span class="s4">THE DEMO</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2"><span class="s4">Try the AI Dispatcher</span></h2>
-<p class="p16"><span class="s4">Call the number. Describe an HVAC problem. Watch what happens.</span></p>
-<p class="p17"><span class="s8">01</span></p>
-<p class="p18"><span class="s8">📞</span></p>
-<p class="p19"><span class="s8">Sam Answers Immediately</span></p>
-<p class="p20"><span class="s8">No rings, no hold music, no voicemail. Sam picks up instantly, day or night.</span></p>
-<p class="p17"><span class="s8">02</span></p>
-<p class="p18"><span class="s8">🗣️</span></p>
-<p class="p19"><span class="s8">Describe the Problem</span></p>
-<p class="p20"><span class="s8">Tell Sam what's wrong. AC not cooling? Furnace won't start? Sam understands HVAC.</span></p>
-<p class="p17"><span class="s8">03</span></p>
-<p class="p18"><span class="s8">🎯</span></p>
-<p class="p19"><span class="s8">Sam Captures the Details</span></p>
-<p class="p20"><span class="s8">Name, address, issue, urgency level — all extracted and structured automatically.</span></p>
-<p class="p17"><span class="s8">04</span></p>
-<p class="p18"><span class="s8">⚡</span></p>
-<p class="p19"><span class="s8">Service Request Created</span></p>
-<p class="p20"><span class="s8">A complete service request lands in your CRM in under 2 seconds. No manual entry.</span></p>
-<p class="p14"><span class="s8">THE MATH</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2"><span class="s8">What Are Missed Calls</span><span class="s4"><br>
-</span><span class="s8">Actually Costing You?</span></h2>
-<p class="p21"><span class="s8">Most HVAC owners don't know. Adjust the sliders and find out in real time.</span></p>
-<p class="p3"><span class="s8">Missed calls per week</span></p>
-<p class="p22"><span class="s8">3</span></p>
-<p class="p23"><span class="s4"></span><br></p>
-<p class="p3"><span class="s8">Average ticket value</span></p>
-<p class="p22"><span class="s8">$450</span></p>
-<p class="p23"><span class="s4"></span><br></p>
-<p class="p3"><span class="s8">Close rate on answered calls</span></p>
-<p class="p22"><span class="s8">65%</span></p>
-<p class="p23"><span class="s4"></span><br></p>
-<p class="p24"><span class="s10">ANNUAL REVENUE LOST</span></p>
-<p class="p25"><span class="s10">$45,630</span></p>
-<p class="p26"><span class="s10">walking out your door every year</span></p>
-<p class="p27"><span class="s4"></span><br></p>
-<p class="p28"><span class="s10">Bold City Dispatch costs you</span></p>
-<p class="p29"><span class="s10">$297 / month</span></p>
-<p class="p30"><span class="s10">That's $3,564/yr to recover $45,630</span></p>
-<p class="p14"><span class="s4">THE PRODUCT</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2"><span class="s4">This Is What You Wake Up To</span></h2>
-<p class="p16"><span class="s4">Every call captured. Every lead tracked. Every opportunity acted on.</span></p>
-<p class="p31"><span class="s4"></span><br></p>
-<p class="p32"><span class="s4"></span><br></p>
-<p class="p33"><span class="s4"></span><br></p>
-<p class="p34"><span class="s11">BOLD CITY DISPATCH — COMMAND CENTER</span></p>
-<p class="p35"><span class="s12">47</span></p>
-<p class="p36"><span class="s12">TOTAL CALLS</span></p>
-<p class="p37"><span class="s12">6</span></p>
-<p class="p36"><span class="s12">EMERGENCY</span></p>
-<p class="p35"><span class="s12">94%</span></p>
-<p class="p36"><span class="s12">CRM SYNC</span></p>
-<p class="p35"><span class="s12">$21k</span></p>
-<p class="p36"><span class="s12">EST. VALUE</span></p>
-<p class="p5"><span class="s4"></span><br></p>
-<p class="p36"><span class="s11">7-DAY CALL VOLUME</span></p>
-<p class="p38"><span class="s8">Dispatch Command Center</span></p>
-<p class="p39"><span class="s8">Track total calls, emergencies, CRM sync rate, and estimated job value — all in one view.</span></p>
-<p class="p31"><span class="s4"></span><br></p>
-<p class="p32"><span class="s4"></span><br></p>
-<p class="p33"><span class="s4"></span><br></p>
-<p class="p34"><span class="s11">CALL LOG — LAST 24 HOURS</span></p>
-<p class="p36"><span class="s11">RECENT DISPATCHES</span></p>
-<p class="p2"><span class="s11">Mike Hendricks</span></p>
-<p class="p13"><span class="s11">AC not cooling · 3147 Southside Blvd</span></p>
-<p class="p40"><span class="s4">EMERGENCY</span></p>
-<p class="p2"><span class="s11">Sandra T.</span></p>
-<p class="p13"><span class="s11">Thermostat issue · Mandarin</span></p>
-<p class="p41"><span class="s4">STANDARD</span></p>
-<p class="p2"><span class="s11">Robert K.</span></p>
-<p class="p13"><span class="s11">Annual maintenance · Ponte Vedra</span></p>
-<p class="p42"><span class="s4">ROUTINE</span></p>
-<p class="p2"><span class="s11">Lisa Marrone</span></p>
-<p class="p13"><span class="s11">Strange noise, won't start</span></p>
-<p class="p40"><span class="s4">EMERGENCY</span></p>
-<p class="p38"><span class="s8">Every Call Captured</span></p>
-<p class="p39"><span class="s8">Caller name, issue summary, address, and urgency level — automatically logged, never missed.</span></p>
-<p class="p14"><span class="s13">PRICING</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 40.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2"><span class="s13">No Contracts. Cancel Anytime.</span></h2>
-<p class="p16"><span class="s13">Start with what you need. Upgrade as you grow.</span></p>
-<p class="p43"><span class="s8">CAPTURE</span></p>
-<p class="p44"><span class="s8">After-Hours</span></p>
-<p class="p44"><span class="s8">Coverage</span></p>
-<p class="p45"><span class="s8">$197</span></p>
-<p class="p39"><span class="s8">per month</span></p>
-<ul class="ul1">
-  <li class="li3"><span class="s14"></span><span class="s8">Nights &amp; weekends answered</span><span class="s15"> </span><span class="s8">Lead capture to dashboard</span><span class="s15"> </span><span class="s8">Telegram alerts for emergencies</span><span class="s15"> </span><span class="s8">Up to 150 calls/month</span><span class="s15"> </span><span class="s8">Email call summary</span></li>
-</ul>
-<p class="p46"><span class="s8"><a href="tel:9041234567">CALL SAM TO START<span class="s16"></span></a></span></p>
-<p class="p47"><span class="s4">MOST POPULAR</span></p>
-<p class="p43"><span class="s17">CONVERT</span></p>
-<p class="p44"><span class="s17">24/7 AI</span></p>
-<p class="p44"><span class="s17">Dispatcher</span></p>
-<p class="p45"><span class="s17">$297</span></p>
-<p class="p39"><span class="s17">per month</span></p>
-<ul class="ul1">
-  <li class="li48"><span class="s18"></span><span class="s4">24/7 live call answering</span><span class="s19"> </span><span class="s4">Full CRM integration (GHL/Jobber)</span><span class="s19"> </span><span class="s4">Service requests created automatically</span><span class="s19"> </span><span class="s4">Emergency triage &amp; escalation</span><span class="s19"> </span><span class="s4">Up to 400 calls/month</span><span class="s19"> </span><span class="s4">Dispatch dashboard access</span></li>
-</ul>
-<p class="p49"><span class="s4"><a href="tel:9041234567">START FREE TRIAL<span class="s20"></span></a></span></p>
-<p class="p43"><span class="s8">COMMAND</span></p>
-<p class="p44"><span class="s8">Enterprise</span></p>
-<p class="p44"><span class="s8">Dispatch</span></p>
-<p class="p45"><span class="s8">$697</span></p>
-<p class="p39"><span class="s8">per month</span></p>
-<ul class="ul1">
-  <li class="li3"><span class="s14"></span><span class="s8">Multi-location / franchise support</span><span class="s15"> </span><span class="s8">Dedicated AI agent config</span><span class="s15"> </span><span class="s8">Priority SLA &amp; uptime guarantees</span><span class="s15"> </span><span class="s8">Custom knowledge base</span><span class="s15"> </span><span class="s8">Unlimited calls</span><span class="s15"> </span><span class="s8">White-glove onboarding</span></li>
-</ul>
-<p class="p46"><span class="s8">BOOK A BRIEFING</span></p>
-<p class="p50"><span class="s4"></span><br></p>
-<p class="p51"><span class="s4">READY TO STOP LOSING CALLS?</span></p>
-<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; text-align: center; font: 56.0px 'Helvetica Neue'; color: #f1ece2; -webkit-text-stroke: #f1ece2"><span class="s4">Zero Missed Calls.<br>
-</span><span class="s5">100% Bold.</span></h2>
-<p class="p53"><span class="s4">Call Sam right now. See exactly what your customers will experience.</span></p>
-<p class="p54"><span class="s21">📞</span><span class="s4"> Call Sam Now</span></p>
-<p class="p55"><span class="s4">(904) XXX-XXXX</span></p>
-<p class="p56"><span class="s4"><a href="https://cal.com/boldcitydispatch">BOOK A DEMO →<span class="s22"></span></a></span></p>
-<p class="p28"><span class="s4">This call may be recorded to improve service.</span></p>
-<p class="p57"><span class="s13">Bold City Dispatch</span></p>
-<p class="p34"><span class="s13">A SHOCHOH LLC COMPANY · JACKSONVILLE, FL</span></p>
-<p class="p34"><span class="s13">ZERO MISSED CALLS. 100% BOLD.</span></p>
-<p class="p58"><span class="s13">© 2026 Shochoh LLC. All rights reserved.</span></p>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    Bold City Dispatch
+    <span>A Shochoh LLC Company</span>
+  </div>
+  <div class="nav-cta">
+    <a href="#pricing" class="btn-ghost">Pricing</a>
+    <a href="tel:19049002341" class="btn-primary">📞 Call Sam Now</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Jacksonville's AI Dispatch Commander</div>
+    <h1 class="hero-headline">
+      Stop Losing<br>
+      HVAC Jobs To<br>
+      <span class="accent">Missed Calls</span>
+    </h1>
+    <p class="hero-sub">
+      Bold City Dispatch answers every call, captures the issue, and creates a service request automatically — 24/7, even at 2am.
+    </p>
+    <div class="hero-actions">
+      <div>
+        <div class="call-block">
+          <div class="call-label">📞 Call Sam Now</div>
+          <div class="call-number">(904) 900-2341</div>
+        </div>
+        <p class="hero-instruction" style="margin-top:12px;">Call and pretend your AC stopped working. Sam answers instantly.</p>
+      </div>
+      <a href="https://cal.com/paul-harris-discovery/30min?overlayCalendar=true" class="hero-book">
+        Or book a 15-min demo
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">USNA Graduate Leadership</div>
+  <div class="trust-item">3rd Generation HVAC Heritage</div>
+  <div class="trust-item">Railway Cloud Infrastructure</div>
+  <div class="trust-item">Zero Missed Calls</div>
+  <div class="trust-item">Jacksonville First Coast</div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div style="max-width:1100px;margin:0 auto;padding:100px 40px;">
+  <div class="section-label">The Demo</div>
+  <h2 class="section-title">Try the AI Dispatcher</h2>
+  <p class="section-sub">Call the number. Describe an HVAC problem. Watch what happens.</p>
+
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-num">01</div>
+      <div class="step-icon">📞</div>
+      <div class="step-title">Sam Answers Immediately</div>
+      <p class="step-desc">No rings, no hold music, no voicemail. Sam picks up instantly, day or night.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">02</div>
+      <div class="step-icon">🗣️</div>
+      <div class="step-title">Describe the Problem</div>
+      <p class="step-desc">Tell Sam what's wrong. AC not cooling? Furnace won't start? Sam understands HVAC.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">03</div>
+      <div class="step-icon">🎯</div>
+      <div class="step-title">Sam Captures the Details</div>
+      <p class="step-desc">Name, address, issue, urgency level — all extracted and structured automatically.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">04</div>
+      <div class="step-icon">⚡</div>
+      <div class="step-title">Service Request Created</div>
+      <p class="step-desc">A complete service request lands in your CRM in under 2 seconds. No manual entry.</p>
+    </div>
+  </div>
+</div>
+
+<!-- REVENUE CALCULATOR -->
+<div class="calc-section">
+  <div class="calc-inner">
+    <div>
+      <div class="section-label">The Math</div>
+      <h2 class="section-title">What Are Missed Calls<br>Actually Costing You?</h2>
+      <p class="section-sub" style="margin-bottom:0;">Most HVAC owners don't know. Adjust the sliders and find out in real time.</p>
+
+      <div class="calc-controls" style="margin-top:40px;">
+        <div class="slider-group">
+          <div class="slider-label">
+            <span class="slider-name">Missed calls per week</span>
+            <span class="slider-value" id="calls-val">3</span>
+          </div>
+          <input type="range" id="calls-slider" min="1" max="20" value="3">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-label">
+            <span class="slider-name">Average ticket value</span>
+            <span class="slider-value" id="ticket-val">$450</span>
+          </div>
+          <input type="range" id="ticket-slider" min="200" max="1500" value="450" step="50">
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-label">
+            <span class="slider-name">Close rate on answered calls</span>
+            <span class="slider-value" id="close-val">65%</span>
+          </div>
+          <input type="range" id="close-slider" min="30" max="95" value="65" step="5">
+        </div>
+      </div>
+    </div>
+
+    <div class="calc-result">
+      <div class="calc-bg">
+        <div class="calc-loss-label">Annual Revenue Lost</div>
+        <div class="calc-loss-amount" id="loss-amount">$45,630</div>
+        <div class="calc-loss-sub">walking out your door every year</div>
+
+        <hr class="calc-divider">
+
+        <div class="calc-cost-label">Bold City Dispatch costs you</div>
+        <div class="calc-cost">$297 / month</div>
+        <div class="calc-roi" id="roi-text">That's $3,564/yr to recover $45,630</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MOCK SCREENSHOTS -->
+<div class="screenshots-section">
+  <div class="section-label">The Product</div>
+  <h2 class="section-title">This Is What You Wake Up To</h2>
+  <p class="section-sub">Every call captured. Every lead tracked. Every opportunity acted on.</p>
+
+  <div class="screenshot-pair">
+    <!-- Dashboard Mock -->
+    <div class="screenshot-card">
+      <div class="screenshot-mock">
+        <div class="mock-header">
+          <div class="mock-dot" style="background:#e74c3c"></div>
+          <div class="mock-dot" style="background:#f39c12"></div>
+          <div class="mock-dot" style="background:#2ecc71"></div>
+          <div class="mock-title-bar">BOLD CITY DISPATCH — COMMAND CENTER</div>
+        </div>
+        <div class="mock-stats">
+          <div class="mock-stat">
+            <div class="mock-stat-val">47</div>
+            <div class="mock-stat-label">Total Calls</div>
+          </div>
+          <div class="mock-stat">
+            <div class="mock-stat-val" style="color:#e74c3c">6</div>
+            <div class="mock-stat-label">Emergency</div>
+          </div>
+          <div class="mock-stat">
+            <div class="mock-stat-val">94%</div>
+            <div class="mock-stat-label">CRM Sync</div>
+          </div>
+          <div class="mock-stat">
+            <div class="mock-stat-val">$21k</div>
+            <div class="mock-stat-label">Est. Value</div>
+          </div>
+        </div>
+        <div style="height:3px;background:linear-gradient(90deg,var(--gold) 0%,rgba(201,152,42,0.1) 100%);margin-bottom:16px;"></div>
+        <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--steel);letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;">7-Day Call Volume</div>
+        <svg width="100%" height="60" viewBox="0 0 300 60">
+          <polyline points="0,45 43,30 86,48 129,15 172,35 215,10 258,28 300,20" fill="none" stroke="rgba(201,152,42,0.4)" stroke-width="1.5"/>
+          <polyline points="0,45 43,30 86,48 129,15 172,35 215,10 258,28 300,20" fill="url(#chartFill)" stroke="var(--gold)" stroke-width="2"/>
+          <defs>
+            <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="rgba(201,152,42,0.15)"/>
+              <stop offset="100%" stop-color="rgba(201,152,42,0)"/>
+            </linearGradient>
+          </defs>
+          <polygon points="0,45 43,30 86,48 129,15 172,35 215,10 258,28 300,20 300,60 0,60" fill="url(#chartFill)"/>
+        </svg>
+      </div>
+      <div class="screenshot-caption">
+        <div class="caption-title">Dispatch Command Center</div>
+        <div class="caption-text">Track total calls, emergencies, CRM sync rate, and estimated job value — all in one view.</div>
+      </div>
+    </div>
+
+    <!-- Call Log Mock -->
+    <div class="screenshot-card">
+      <div class="screenshot-mock">
+        <div class="mock-header">
+          <div class="mock-dot" style="background:#e74c3c"></div>
+          <div class="mock-dot" style="background:#f39c12"></div>
+          <div class="mock-dot" style="background:#2ecc71"></div>
+          <div class="mock-title-bar">CALL LOG — LAST 24 HOURS</div>
+        </div>
+        <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--steel);letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;">Recent Dispatches</div>
+
+        <div class="mock-row">
+          <div>
+            <div class="mock-row-name">Mike Hendricks</div>
+            <div class="mock-row-detail">AC not cooling · 3147 Southside Blvd</div>
+          </div>
+          <span class="badge badge-emergency">Emergency</span>
+        </div>
+        <div class="mock-row">
+          <div>
+            <div class="mock-row-name">Sandra T.</div>
+            <div class="mock-row-detail">Thermostat issue · Mandarin</div>
+          </div>
+          <span class="badge badge-standard">Standard</span>
+        </div>
+        <div class="mock-row">
+          <div>
+            <div class="mock-row-name">Robert K.</div>
+            <div class="mock-row-detail">Annual maintenance · Ponte Vedra</div>
+          </div>
+          <span class="badge badge-routine">Routine</span>
+        </div>
+        <div class="mock-row">
+          <div>
+            <div class="mock-row-name">Lisa Marrone</div>
+            <div class="mock-row-detail">Strange noise, won't start</div>
+          </div>
+          <span class="badge badge-emergency">Emergency</span>
+        </div>
+      </div>
+      <div class="screenshot-caption">
+        <div class="caption-title">Every Call Captured</div>
+        <div class="caption-text">Caller name, issue summary, address, and urgency level — automatically logged, never missed.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRICING -->
+<div class="pricing-section" id="pricing">
+  <div class="pricing-inner">
+    <div class="section-label">Pricing</div>
+    <h2 class="section-title">No Contracts. Cancel Anytime.</h2>
+    <p class="section-sub">Start with what you need. Upgrade as you grow.</p>
+
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-tier">CAPTURE</div>
+        <div class="pricing-name">After-Hours<br>Coverage</div>
+        <div class="pricing-price">$197</div>
+        <div class="pricing-period">per month</div>
+        <ul class="pricing-features">
+          <li>Nights & weekends answered</li>
+          <li>Lead capture to dashboard</li>
+          <li>Telegram alerts for emergencies</li>
+          <li>Up to 150 calls/month</li>
+          <li>Email call summary</li>
+        </ul>
+        <a href="tel:19049002341" class="pricing-cta">Call Sam to Start</a>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Most Popular</div>
+        <div class="pricing-tier">CONVERT</div>
+        <div class="pricing-name">24/7 AI<br>Dispatcher</div>
+        <div class="pricing-price">$297</div>
+        <div class="pricing-period">per month</div>
+        <ul class="pricing-features">
+          <li>24/7 live call answering</li>
+          <li>Full CRM integration (GHL/Jobber)</li>
+          <li>Service requests created automatically</li>
+          <li>Emergency triage & escalation</li>
+          <li>Up to 400 calls/month</li>
+          <li>Dispatch dashboard access</li>
+        </ul>
+        <a href="tel:19049002341" class="pricing-cta">Start Free Trial</a>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-tier">COMMAND</div>
+        <div class="pricing-name">Enterprise<br>Dispatch</div>
+        <div class="pricing-price">$697</div>
+        <div class="pricing-period">per month</div>
+        <ul class="pricing-features">
+          <li>Multi-location / franchise support</li>
+          <li>Dedicated AI agent config</li>
+          <li>Priority SLA & uptime guarantees</li>
+          <li>Custom knowledge base</li>
+          <li>Unlimited calls</li>
+          <li>White-glove onboarding</li>
+        </ul>
+        <a href="https://cal.com/paul-harris-discovery/30min?overlayCalendar=true" class="pricing-cta">Book a Briefing</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FINAL CTA -->
+<section class="final-cta" id="demo-booking">
+  <div class="final-cta-bg"></div>
+  <div class="final-cta-content">
+    <p style="font-family:'DM Mono',monospace;font-size:11px;letter-spacing:3px;color:var(--gold-dim);text-transform:uppercase;margin-bottom:20px;">Ready to Stop Losing Calls?</p>
+    <h2 class="final-headline">
+      Zero Missed Calls.<br>
+      <span class="gold">100% Bold.</span>
+    </h2>
+    <p class="final-sub">Call Sam right now. See exactly what your customers will experience.</p>
+    <div class="final-actions">
+      <div class="final-call">
+        <div class="final-call-label">📞 Call Sam Now</div>
+        <div class="final-call-num">(904) 900-2341</div>
+      </div>
+      <a href="https://cal.com/paul-harris-discovery/30min?overlayCalendar=true" class="btn-book">Book a Demo →</a>
+    </div>
+    <p style="margin-top:24px;font-size:13px;color:var(--steel);opacity:0.6;">This call may be recorded to improve service.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-logo">Bold City Dispatch</div>
+    <div class="footer-tagline" style="margin-top:4px;">A Shochoh LLC Company · Jacksonville, FL</div>
+  </div>
+  <div class="footer-tagline">Zero Missed Calls. 100% Bold.</div>
+  <div class="footer-legal">© 2026 Shochoh LLC. All rights reserved.</div>
+</footer>
+
+<script>
+  const callsSlider = document.getElementById('calls-slider');
+  const ticketSlider = document.getElementById('ticket-slider');
+  const closeSlider = document.getElementById('close-slider');
+  const callsVal = document.getElementById('calls-val');
+  const ticketVal = document.getElementById('ticket-val');
+  const closeVal = document.getElementById('close-val');
+  const lossAmount = document.getElementById('loss-amount');
+  const roiText = document.getElementById('roi-text');
+
+  function updateCalc() {
+    const calls = parseInt(callsSlider.value);
+    const ticket = parseInt(ticketSlider.value);
+    const close = parseInt(closeSlider.value) / 100;
+
+    callsVal.textContent = calls;
+    ticketVal.textContent = '$' + ticket.toLocaleString();
+    closeVal.textContent = (close * 100) + '%';
+
+    const annualLoss = Math.round(calls * 52 * ticket * close);
+    lossAmount.textContent = '$' + annualLoss.toLocaleString();
+
+    const annualCost = 297 * 12;
+    const roi = Math.round(annualLoss / annualCost);
+    roiText.textContent = `That's $${annualCost.toLocaleString()}/yr to recover $${annualLoss.toLocaleString()}`;
+  }
+
+  callsSlider.addEventListener('input', updateCalc);
+  ticketSlider.addEventListener('input', updateCalc);
+  closeSlider.addEventListener('input', updateCalc);
+  updateCalc();
+</script>
 </body>
 </html>
